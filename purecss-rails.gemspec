@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["squall.bruno@gmail.com"]
   spec.homepage      = "https://github.com/brunohenrique/purecss-rails"
   spec.description   = %q{Purecss CSS toolkit for Rails}
-  spec.summary       = %q{Write a gem summary}
+  spec.summary       = %q{purecss-rails project integrates Pure CSS toolkit for Rails Asset Pipeline}
   spec.homepage      = ""
   spec.license       = "MIT"
 
