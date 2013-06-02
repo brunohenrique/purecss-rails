@@ -24,6 +24,13 @@ or
 
 $ rails g purecss:install nonresponsive
 ```
+To add a module, I use the file  ```app/assets/stylesheets/purecss.css``` like this:
+
+```
+= require purecss/<module_name>
+```
+
+
 ## Contributing
 
 1. Fork it
