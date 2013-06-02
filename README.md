@@ -4,6 +4,7 @@ Pure ([http://purecss.io/](http://purecss.io/)) is ridiculously tiny. The entire
 
 purecss-rails project integrates Pure CSS toolkit for Rails Asset Pipeline
 
+[![Build Status](https://travis-ci.org/brunohenrique/purecss-rails.png?branch=master)](https://travis-ci.org/brunohenrique/purecss-rails)
 [![Code Climate](https://codeclimate.com/github/brunohenrique/purecss-rails.png)](https://codeclimate.com/github/brunohenrique/purecss-rails)
 
 # Installation
