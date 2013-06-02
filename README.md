@@ -18,7 +18,11 @@ Then run `bundle install` to install the gem.
 ## What now?
 
 ```bash
-rails g purecss:install
+$ rails g purecss:install
+
+or
+
+$ rails g purecss:install nonresponsive
 ```
 ## Contributing
 
