@@ -8,7 +8,7 @@ module Purecss
 
 
       def add_purecss
-        copy_file layout_type(stylesheets_type), "app/assets/stylesheets/purecss.css"
+        verify_and_copy_correct_stylesheet(stylesheets_type)
 
         css_manifest = 'app/assets/stylesheets/application.css'
         if File.exist?(css_manifest)
@@ -20,9 +20,9 @@ module Purecss
       end
 
       private
-      def layout_type(type)
+      def verify_and_copy_correct_stylesheet(type)
         if type == 'responsive' or type == 'nonresponsive'
-          "#{stylesheets_type}.css"
+          copy_file "#{stylesheets_type}.css", "app/assets/stylesheets/purecss.css"
         else
           raise "'#{stylesheets_type}'' is not recognized, use either 'responsive' or 'nonresponsive'"
         end
