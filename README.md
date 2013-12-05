@@ -13,9 +13,7 @@ purecss-rails project integrates Pure CSS toolkit for Rails Asset Pipeline
 Inside your Gemfile add the following line:
 
 ```ruby
-group :assets do
   gem 'purecss-rails'
-end
 ```
 
 Then run `bundle install` to install the gem.
